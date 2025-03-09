@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Travel Destinations</title>
+    <meta name="description" content="Explore India's most beautiful travel destinations and plan your next adventure.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="logo.webp" alt="Travel Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="cta">
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Breathtaking Destinations in India</h1>
+            <p>Plan your perfect getaway with us.</p>
+            <a href="#destinations" class="btn">Explore Now</a>
+        </div>
+    </section>
+    
+    <section id="destinations" class="featured-destinations">
+        <h2>Top Indian Destinations</h2>
+        <div class="destination-cards">
+            <div class="destination-card">
+                <img src="taj-mahal.webp" alt="Taj Mahal, Agra">
+                <h3>Taj Mahal, Agra</h3>
+                <p>One of the Seven Wonders of the World.</p>
+            </div>
+            <div class="destination-card">
+                <img src="hawa-mahal.webp" alt="Jaipur, Rajasthan">
+                <h3>Jaipur, Rajasthan</h3>
+                <p>The beautiful Pink City of India.</p>
+            </div>
+            <div class="destination-card">
+                <img src="goa-beach.webp" alt="Goa Beach">
+                <h3>Goa Beaches</h3>
+                <p>Sun, sand, and vibrant nightlife.</p>
+            </div>
+            <div class="destination-card">
+                <img src="kerala-backwaters.webp" alt="Kerala Backwaters">
+                <h3>Kerala Backwaters</h3>
+                <p>Serene houseboat experiences.</p>
+            </div>
+            <div class="destination-card">
+                <img src="himalyas.webp" alt="Himalayan Mountains">
+                <h3>Himalayan Mountains</h3>
+                <p>A paradise for trekkers and nature lovers.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="booking" class="booking-section">
+        <h2>Book Your Dream Vacation</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email ID" required 
+                   pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" 
+                   title="Enter a valid email address (e.g., example@mail.com)">
+            <input type="tel" placeholder="Mobile Number" required 
+                   pattern="^\d{10}$" inputmode="numeric" maxlength="10" 
+                   title="Enter a valid 10-digit phone number">
+            <input type="text" placeholder="Enter Destination" required>
+            <input type="date" required>
+            <input type="number" placeholder="Number of People" required min="1">
+            <button type="submit" class="btn">Book Now</button>
+        </form>
+    </section>
+    
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Your trusted travel partner for amazing Indian getaways.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: contact@travelwebsite.com</p>
+                <p>Phone: +91-9876543210</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Indian Travel Destinations. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+   
